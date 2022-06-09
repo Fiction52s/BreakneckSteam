@@ -1,0 +1,922 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\AbsorbParticles.cpp" />
+    <ClCompile Include="..\Code\Action.cpp" />
+    <ClCompile Include="..\Code\Actor.cpp" />
+    <ClCompile Include="..\Code\ActorParams.cpp" />
+    <ClCompile Include="..\Code\ActorParams1.cpp" />
+    <ClCompile Include="..\Code\ActorParams2.cpp" />
+    <ClCompile Include="..\Code\ActorParams3.cpp" />
+    <ClCompile Include="..\Code\ActorParams4.cpp" />
+    <ClCompile Include="..\Code\ActorParams5.cpp" />
+    <ClCompile Include="..\Code\ActorParams6.cpp" />
+    <ClCompile Include="..\Code\ActorParamsBase.cpp" />
+    <ClCompile Include="..\Code\AdventureCreator.cpp" />
+    <ClCompile Include="..\Code\AdventureFile.cpp" />
+    <ClCompile Include="..\Code\AirParticles.cpp" />
+    <ClCompile Include="..\Code\AirTrigger.cpp" />
+    <ClCompile Include="..\Code\Aura.cpp" />
+    <ClCompile Include="..\Code\Background.cpp" />
+    <ClCompile Include="..\Code\Ball.cpp" />
+    <ClCompile Include="..\Code\Barrier.cpp" />
+    <ClCompile Include="..\Code\BarrierReactions.cpp" />
+    <ClCompile Include="..\Code\BasicBossScene.cpp" />
+    <ClCompile Include="..\Code\BitField.cpp" />
+    <ClCompile Include="..\Code\BonusHandler.cpp" />
+    <ClCompile Include="..\Code\Booster.cpp" />
+    <ClCompile Include="..\Code\Boss.cpp" />
+    <ClCompile Include="..\Code\BossHealth.cpp" />
+    <ClCompile Include="..\Code\BossStageManager.cpp" />
+    <ClCompile Include="..\Code\BrushManager.cpp" />
+    <ClCompile Include="..\Code\Buf.cpp" />
+    <ClCompile Include="..\Code\Bullet.cpp" />
+    <ClCompile Include="..\Code\Button.cpp" />
+    <ClCompile Include="..\Code\ButtonHolder.cpp" />
+    <ClCompile Include="..\Code\Camera.cpp" />
+    <ClCompile Include="..\Code\CharacterAnimator.cpp" />
+    <ClCompile Include="..\Code\CheckBox.cpp" />
+    <ClCompile Include="..\Code\ChooseRect.cpp" />
+    <ClCompile Include="..\Code\CircleGroup.cpp" />
+    <ClCompile Include="..\Code\clipper.cpp" />
+    <ClCompile Include="..\Code\ColorShifter.cpp" />
+    <ClCompile Include="..\Code\Config.cpp" />
+    <ClCompile Include="..\Code\ConfirmPopup.cpp" />
+    <ClCompile Include="..\Code\ControllerOptions.cpp" />
+    <ClCompile Include="..\Code\ControlProfile.cpp" />
+    <ClCompile Include="..\Code\ControlSettingsMenu.cpp" />
+    <ClCompile Include="..\Code\CreateDecorModeUI.cpp" />
+    <ClCompile Include="..\Code\CreateEnemyModeUI.cpp" />
+    <ClCompile Include="..\Code\CreateGatesModeUI.cpp" />
+    <ClCompile Include="..\Code\CreateRailModeUI.cpp" />
+    <ClCompile Include="..\Code\CreateTerrainModeUI.cpp" />
+    <ClCompile Include="..\Code\CreditsMenuScreen.cpp" />
+    <ClCompile Include="..\Code\CustomMapClient.cpp" />
+    <ClCompile Include="..\Code\CustomMapDisplay.cpp" />
+    <ClCompile Include="..\Code\CustomMapHandler.cpp" />
+    <ClCompile Include="..\Code\DeathSequence.cpp" />
+    <ClCompile Include="..\Code\Dropdown.cpp" />
+    <ClCompile Include="..\Code\EditModeUI.cpp" />
+    <ClCompile Include="..\Code\EditorActors.cpp" />
+    <ClCompile Include="..\Code\EditorDecorInfo.cpp" />
+    <ClCompile Include="..\Code\EditorGateInfo.cpp" />
+    <ClCompile Include="..\Code\EditorGraph.cpp" />
+    <ClCompile Include="..\Code\EditorPlayerTracker.cpp" />
+    <ClCompile Include="..\Code\EditorRail.cpp" />
+    <ClCompile Include="..\Code\EditorTerrain.cpp" />
+    <ClCompile Include="..\Code\EditSession.cpp" />
+    <ClCompile Include="..\Code\Enemy.cpp" />
+    <ClCompile Include="..\Code\EnemyChain.cpp" />
+    <ClCompile Include="..\Code\EnemyChooseRect.cpp" />
+    <ClCompile Include="..\Code\EnemyMover.cpp" />
+    <ClCompile Include="..\Code\EnemyTracker.cpp" />
+    <ClCompile Include="..\Code\Enemy_AimLauncher.cpp" />
+    <ClCompile Include="..\Code\Enemy_Airdasher.cpp" />
+    <ClCompile Include="..\Code\Enemy_AntiTimeSlowBooster.cpp" />
+    <ClCompile Include="..\Code\Enemy_AppearingShape.cpp" />
+    <ClCompile Include="..\Code\Enemy_AttractJuggler.cpp" />
+    <ClCompile Include="..\Code\Enemy_BabyScorpion.cpp" />
+    <ClCompile Include="..\Code\Enemy_Badger.cpp" />
+    <ClCompile Include="..\Code\Enemy_BasicEffect.cpp" />
+    <ClCompile Include="..\Code\Enemy_BasicTurret.cpp" />
+    <ClCompile Include="..\Code\Enemy_Bat.cpp" />
+    <ClCompile Include="..\Code\Enemy_BeamBomb.cpp" />
+    <ClCompile Include="..\Code\Enemy_Bird.cpp" />
+    <ClCompile Include="..\Code\Enemy_BirdShuriken.cpp" />
+    <ClCompile Include="..\Code\Enemy_Blocker.cpp" />
+    <ClCompile Include="..\Code\Enemy_BounceBooster.cpp" />
+    <ClCompile Include="..\Code\Enemy_BounceFloater.cpp" />
+    <ClCompile Include="..\Code\Enemy_BounceJuggler.cpp" />
+    <ClCompile Include="..\Code\Enemy_Cactus.cpp" />
+    <ClCompile Include="..\Code\Enemy_Cheetah.cpp" />
+    <ClCompile Include="..\Code\Enemy_Chess.cpp" />
+    <ClCompile Include="..\Code\Enemy_Comboer.cpp" />
+    <ClCompile Include="..\Code\Enemy_ComboerTarget.cpp" />
+    <ClCompile Include="..\Code\Enemy_Copycat.cpp" />
+    <ClCompile Include="..\Code\Enemy_Coyote.cpp" />
+    <ClCompile Include="..\Code\Enemy_CoyoteBullet.cpp" />
+    <ClCompile Include="..\Code\Enemy_CoyoteHelper.cpp" />
+    <ClCompile Include="..\Code\Enemy_CoyoteShockwave.cpp" />
+    <ClCompile Include="..\Code\Enemy_Crawler.cpp" />
+    <ClCompile Include="..\Code\Enemy_CrawlerQueen.cpp" />
+    <ClCompile Include="..\Code\Enemy_CurveTurret.cpp" />
+    <ClCompile Include="..\Code\Enemy_DimensionExit.cpp" />
+    <ClCompile Include="..\Code\Enemy_DimensionEye.cpp" />
+    <ClCompile Include="..\Code\Enemy_ExplodingBarrel.cpp" />
+    <ClCompile Include="..\Code\Enemy_Falcon.cpp" />
+    <ClCompile Include="..\Code\Enemy_Firefly.cpp" />
+    <ClCompile Include="..\Code\Enemy_FreeFlightBooster.cpp" />
+    <ClCompile Include="..\Code\Enemy_FreeFlightTarget.cpp" />
+    <ClCompile Include="..\Code\Enemy_FutureChecker.cpp" />
+    <ClCompile Include="..\Code\Enemy_Gator.cpp" />
+    <ClCompile Include="..\Code\Enemy_GatorSuperOrb.cpp" />
+    <ClCompile Include="..\Code\Enemy_GatorWaterOrb.cpp" />
+    <ClCompile Include="..\Code\Enemy_Ghost.cpp" />
+    <ClCompile Include="..\Code\Enemy_GlideTarget.cpp" />
+    <ClCompile Include="..\Code\Enemy_Goal.cpp" />
+    <ClCompile Include="..\Code\Enemy_Gorilla.cpp" />
+    <ClCompile Include="..\Code\Enemy_GravityFaller.cpp" />
+    <ClCompile Include="..\Code\Enemy_GravityJuggler.cpp" />
+    <ClCompile Include="..\Code\Enemy_GravityModifier.cpp" />
+    <ClCompile Include="..\Code\Enemy_GreyEye.cpp" />
+    <ClCompile Include="..\Code\Enemy_GreySkeleton.cpp" />
+    <ClCompile Include="..\Code\Enemy_GrindJuggler.cpp" />
+    <ClCompile Include="..\Code\Enemy_GroundedGrindJuggler.cpp" />
+    <ClCompile Include="..\Code\Enemy_GrowingTree.cpp" />
+    <ClCompile Include="..\Code\Enemy_Hand.cpp" />
+    <ClCompile Include="..\Code\Enemy_HealthFly.cpp" />
+    <ClCompile Include="..\Code\Enemy_HomingBooster.cpp" />
+    <ClCompile Include="..\Code\Enemy_HungryComboer.cpp" />
+    <ClCompile Include="..\Code\Enemy_KeyFly.cpp" />
+    <ClCompile Include="..\Code\Enemy_LaserJays.cpp" />
+    <ClCompile Include="..\Code\Enemy_Lizard.cpp" />
+    <ClCompile Include="..\Code\Enemy_LobTurret.cpp" />
+    <ClCompile Include="..\Code\Enemy_LogItem.cpp" />
+    <ClCompile Include="..\Code\Enemy_MomentumBooster.cpp" />
+    <ClCompile Include="..\Code\Enemy_MovementTester.cpp" />
+    <ClCompile Include="..\Code\Enemy_MultiplayerBase.cpp" />
+    <ClCompile Include="..\Code\Enemy_MultiplayerProgressTarget.cpp" />
+    <ClCompile Include="..\Code\Enemy_Owl.cpp" />
+    <ClCompile Include="..\Code\Enemy_PalmTurret.cpp" />
+    <ClCompile Include="..\Code\Enemy_Parrot.cpp" />
+    <ClCompile Include="..\Code\Enemy_Patroller.cpp" />
+    <ClCompile Include="..\Code\Enemy_PhaseBooster.cpp" />
+    <ClCompile Include="..\Code\Enemy_PoisonFrog.cpp" />
+    <ClCompile Include="..\Code\Enemy_PowerItem.cpp" />
+    <ClCompile Include="..\Code\Enemy_PredictTurret.cpp" />
+    <ClCompile Include="..\Code\Enemy_Pufferfish.cpp" />
+    <ClCompile Include="..\Code\Enemy_PulseAttack.cpp" />
+    <ClCompile Include="..\Code\Enemy_QueenFloatingBomb.cpp" />
+    <ClCompile Include="..\Code\Enemy_RaceFightTarget.cpp" />
+    <ClCompile Include="..\Code\Enemy_RelativeComboer.cpp" />
+    <ClCompile Include="..\Code\Enemy_RemoteComboer.cpp" />
+    <ClCompile Include="..\Code\Enemy_RewindBooster.cpp" />
+    <ClCompile Include="..\Code\Enemy_Roadrunner.cpp" />
+    <ClCompile Include="..\Code\Enemy_ScorpionLauncher.cpp" />
+    <ClCompile Include="..\Code\Enemy_SequenceBird.cpp" />
+    <ClCompile Include="..\Code\Enemy_SequenceCoyote.cpp" />
+    <ClCompile Include="..\Code\Enemy_SequenceCrawler.cpp" />
+    <ClCompile Include="..\Code\Enemy_SequenceGator.cpp" />
+    <ClCompile Include="..\Code\Enemy_SequenceSkeleton.cpp" />
+    <ClCompile Include="..\Code\Enemy_SequenceTiger.cpp" />
+    <ClCompile Include="..\Code\Enemy_Shard.cpp" />
+    <ClCompile Include="..\Code\Enemy_Shark.cpp" />
+    <ClCompile Include="..\Code\Enemy_ShotgunTurret.cpp" />
+    <ClCompile Include="..\Code\Enemy_Shroom.cpp" />
+    <ClCompile Include="..\Code\Enemy_Skeleton.cpp" />
+    <ClCompile Include="..\Code\Enemy_SkeletonLaser.cpp" />
+    <ClCompile Include="..\Code\Enemy_Skunk.cpp" />
+    <ClCompile Include="..\Code\Enemy_Specter.cpp" />
+    <ClCompile Include="..\Code\Enemy_Spider.cpp" />
+    <ClCompile Include="..\Code\Enemy_SplitComboer.cpp" />
+    <ClCompile Include="..\Code\Enemy_StagBeetle.cpp" />
+    <ClCompile Include="..\Code\Enemy_Swarm.cpp" />
+    <ClCompile Include="..\Code\Enemy_SwingLauncher.cpp" />
+    <ClCompile Include="..\Code\Enemy_SwordProjectile.cpp" />
+    <ClCompile Include="..\Code\Enemy_SwordProjectileBooster.cpp" />
+    <ClCompile Include="..\Code\Enemy_Teleporter.cpp" />
+    <ClCompile Include="..\Code\Enemy_TetheredRusher.cpp" />
+    <ClCompile Include="..\Code\Enemy_Thorn.cpp" />
+    <ClCompile Include="..\Code\Enemy_Tiger.cpp" />
+    <ClCompile Include="..\Code\Enemy_TigerFlameTarget.cpp" />
+    <ClCompile Include="..\Code\Enemy_TigerGrindBullet.cpp" />
+    <ClCompile Include="..\Code\Enemy_TigerSpinTurret.cpp" />
+    <ClCompile Include="..\Code\Enemy_TigerTarget.cpp" />
+    <ClCompile Include="..\Code\Enemy_TimeBooster.cpp" />
+    <ClCompile Include="..\Code\Enemy_Trailer.cpp" />
+    <ClCompile Include="..\Code\Enemy_Turtle.cpp" />
+    <ClCompile Include="..\Code\Enemy_TutorialObject.cpp" />
+    <ClCompile Include="..\Code\Enemy_Widow.cpp" />
+    <ClCompile Include="..\Code\Enemy_WireJuggler.cpp" />
+    <ClCompile Include="..\Code\EnvEffects.cpp" />
+    <ClCompile Include="..\Code\EnvPlant.cpp" />
+    <ClCompile Include="..\Code\ErrorBar.cpp" />
+    <ClCompile Include="..\Code\Eye.cpp" />
+    <ClCompile Include="..\Code\Fader.cpp" />
+    <ClCompile Include="..\Code\Feedback.cpp" />
+    <ClCompile Include="..\Code\FightHUD.cpp" />
+    <ClCompile Include="..\Code\FightMode.cpp" />
+    <ClCompile Include="..\Code\FileChooser.cpp" />
+    <ClCompile Include="..\Code\FlashedImage.cpp" />
+    <ClCompile Include="..\Code\FlashGroup.cpp" />
+    <ClCompile Include="..\Code\flow.cpp" />
+    <ClCompile Include="..\Code\FlowerPod.cpp" />
+    <ClCompile Include="..\Code\FPoint.cpp" />
+    <ClCompile Include="..\Code\GameMode.cpp" />
+    <ClCompile Include="..\Code\GameSession.cpp" />
+    <ClCompile Include="..\Code\Gate.cpp" />
+    <ClCompile Include="..\Code\GateMarker.cpp" />
+    <ClCompile Include="..\Code\GCC\GCController.cpp" />
+    <ClCompile Include="..\Code\GCC\USBDriver.cpp" />
+    <ClCompile Include="..\Code\GCC\VJoyGCController.cpp" />
+    <ClCompile Include="..\Code\GeneralUI.cpp" />
+    <ClCompile Include="..\Code\GetAirdashPowerSeq.cpp" />
+    <ClCompile Include="..\Code\GGPO.cpp" />
+    <ClCompile Include="..\Code\GoalExplosion.cpp" />
+    <ClCompile Include="..\Code\GoalFlow.cpp" />
+    <ClCompile Include="..\Code\GPUFlow.cpp" />
+    <ClCompile Include="..\Code\Grass.cpp" />
+    <ClCompile Include="..\Code\GreyWarpSequence.cpp" />
+    <ClCompile Include="..\Code\GridSelector.cpp" />
+    <ClCompile Include="..\Code\GroundedWarper.cpp" />
+    <ClCompile Include="..\Code\GroundTrigger.cpp" />
+    <ClCompile Include="..\Code\HitboxManager.cpp" />
+    <ClCompile Include="..\Code\HUD.cpp" />
+    <ClCompile Include="..\Code\ImageChooseRect.cpp" />
+    <ClCompile Include="..\Code\ImageText.cpp" />
+    <ClCompile Include="..\Code\Input.cpp" />
+    <ClCompile Include="..\Code\InputVisualizer.cpp" />
+    <ClCompile Include="..\Code\IntroMovie.cpp" />
+    <ClCompile Include="..\Code\ItemSelector.cpp" />
+    <ClCompile Include="..\Code\Julia.cpp" />
+    <ClCompile Include="..\Code\KeyMarker.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_AIMWAIT.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_AIRBLOCKDOWN.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_AIRBLOCKDOWNFORWARD.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_AIRBLOCKFORWARD.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_AIRBLOCKUP.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_AIRBLOCKUPFORWARD.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_AIRDASH.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_AIRHITSTUN.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_AIRPARRY.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_AUTORUN.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_BACKWARDSDOUBLE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_BOOSTERBOUNCE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_BOOSTERBOUNCEGROUND.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_BOUNCEAIR.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_BOUNCEGROUND.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_BOUNCEGROUNDEDWALL.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_BRAKE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_DAIR.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_DASH.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_DASHATTACK.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_DASHATTACK2.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_DASHATTACK3.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_DEATH.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_DIAGDOWNATTACK.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_DIAGUPATTACK.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_DOUBLE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_ENTERNEXUS1.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_EXIT.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_EXITBOOST.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_EXITWAIT.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_FAIR.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_FREEFLIGHT.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_FREEFLIGHTSTUN.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GETPOWER_AIRDASH_FLIP.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GETPOWER_AIRDASH_MEDITATE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GETSHARD.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GLIDE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GOALKILL.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GOALKILL1.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GOALKILL2.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GOALKILL3.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GOALKILL4.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GOALKILLWAIT.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GRABSHIP.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GRAVREVERSE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GRINDATTACK.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GRINDBALL.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GRINDLUNGE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GRINDSLASH.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GROUNDBLOCKDOWN.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GROUNDBLOCKDOWNFORWARD.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GROUNDBLOCKFORWARD.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GROUNDBLOCKUP.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GROUNDBLOCKUPFORWARD.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GROUNDHITSTUN.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GROUNDPARRY.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GROUNDPARRYHIGH.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GROUNDPARRYLOW.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GROUNDTECHBACK.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GROUNDTECHFORWARD.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_GROUNDTECHINPLACE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_HOMINGATTACK.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_INTRO.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_INTROBOOST.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_JUMP.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_JUMPSQUAT.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_LAND.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_LAND2.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_LOCKEDRAILSLIDE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_NEXUSKILL.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_RAILDASH.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_RAILGRIND.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_RAILSLIDE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_RIDESHIP.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_RUN.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_CRAWLERFIGHT_DODGEBACK.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_CRAWLERFIGHT_LAND.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_CRAWLERFIGHT_STAND.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_CRAWLERFIGHT_STRAIGHTFALL.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_CRAWLERFIGHT_WALKFORWARDSLIGHTLY.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_CRAWLERFIGHT_WATCHANDWAITSURPRISED.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_ENTERCORE1.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_FADE_INTO_NEXUS.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_FLOAT_TO_NEXUS_OPENING.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_GATORSTUN.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_KINFALL.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_KINSTAND.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_KINTHROWN.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_KNEEL.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_KNEEL_TO_MEDITATE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_LOOKUP.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_LOOKUPDISAPPEAR.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_MASKOFF.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_MEDITATE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_MEDITATE_MASKON.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_TURNFACE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SEQ_WAIT.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SKYDIVE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SKYDIVETOFALL.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SLIDE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPAWNWAIT.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUN.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNAIM.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNAIRBOUNCE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNAIRBOUNCEPAUSE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNANNIHILATION.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNANNIHILATIONATTACK.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNBOUNCE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNBOUNCEGROUND.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNGLIDE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNGRIND.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNGRINDFLY.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNHOMING.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNHOMINGATTACK.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINGSTUNTELEPORT.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SPRINT.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_STAND.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_STANDATTACK1.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_STANDATTACK2.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_STANDATTACK3.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_STANDATTACK4.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_STEEPCLIMB.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_STEEPCLIMBATTACK.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_STEEPCLING.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_STEEPSLIDE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_STEEPSLIDEATTACK.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SUPERBIRD.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_SWINGSTUN.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_TELEPORTACROSSTERRAIN.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_TESTSUPER.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_UAIR.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_UPTILT1.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_UPTILT2.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_UPTILT3.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_WAITFORSHIP.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_WALLATTACK.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_WALLCLING.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_WALLJUMP.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_WALLTECH.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_WATERGLIDE.cpp" />
+    <ClCompile Include="..\Code\KinActions\Action_WIREHOLD.cpp" />
+    <ClCompile Include="..\Code\KinBoostScreen.cpp" />
+    <ClCompile Include="..\Code\KinMenu.cpp" />
+    <ClCompile Include="..\Code\LevelSelector.cpp" />
+    <ClCompile Include="..\Code\LevelServer.cpp" />
+    <ClCompile Include="..\Code\Light.cpp" />
+    <ClCompile Include="..\Code\LoadingBackpack.cpp" />
+    <ClCompile Include="..\Code\LoadingMapProgressDisplay.cpp" />
+    <ClCompile Include="..\Code\LogMenu.cpp" />
+    <ClCompile Include="..\Code\MacInput.cpp" />
+    <ClCompile Include="..\Code\main.cpp" />
+    <ClCompile Include="..\Code\MainMenu.cpp" />
+    <ClCompile Include="..\Code\MapHeader.cpp" />
+    <ClCompile Include="..\Code\MapOptionsUI.cpp" />
+    <ClCompile Include="..\Code\MapSector.cpp" />
+    <ClCompile Include="..\Code\MapSelectionMenu.cpp" />
+    <ClCompile Include="..\Code\MapSelector.cpp" />
+    <ClCompile Include="..\Code\MenuDropdown.cpp" />
+    <ClCompile Include="..\Code\Minimap.cpp" />
+    <ClCompile Include="..\Code\MomentaScene.cpp" />
+    <ClCompile Include="..\Code\MomentumBar.cpp" />
+    <ClCompile Include="..\Code\MotionGhostEffect.cpp" />
+    <ClCompile Include="..\Code\Movable.cpp" />
+    <ClCompile Include="..\Code\Movement.cpp" />
+    <ClCompile Include="..\Code\Mover.cpp" />
+    <ClCompile Include="..\Code\MovingGeo.cpp" />
+    <ClCompile Include="..\Code\MultiLoadingScreen.cpp" />
+    <ClCompile Include="..\Code\MultiSelectionSection.cpp" />
+    <ClCompile Include="..\Code\MusicPlayer.cpp" />
+    <ClCompile Include="..\Code\MusicSelector.cpp" />
+    <ClCompile Include="..\Code\MusicSelectorUI.cpp" />
+    <ClCompile Include="..\Code\Nexus.cpp" />
+    <ClCompile Include="..\Code\NexusCoreSeq.cpp" />
+    <ClCompile Include="..\Code\NodeGroup.cpp" />
+    <ClCompile Include="..\Code\ObjectPool.cpp" />
+    <ClCompile Include="..\Code\OptionsMenuScreen.cpp" />
+    <ClCompile Include="..\Code\PaletteShader.cpp" />
+    <ClCompile Include="..\Code\Panel.cpp" />
+    <ClCompile Include="..\Code\PanelMember.cpp" />
+    <ClCompile Include="..\Code\PanelSlider.cpp" />
+    <ClCompile Include="..\Code\PanInfo.cpp" />
+    <ClCompile Include="..\Code\ParticleEffects.cpp" />
+    <ClCompile Include="..\Code\PauseMenu.cpp" />
+    <ClCompile Include="..\Code\Physics.cpp" />
+    <ClCompile Include="..\Code\PlayerChar.cpp" />
+    <ClCompile Include="..\Code\PlayerRecord.cpp" />
+    <ClCompile Include="..\Code\PlayerSkinShader.cpp" />
+    <ClCompile Include="..\Code\PoiInfo.cpp" />
+    <ClCompile Include="..\Code\PositionInfo.cpp" />
+    <ClCompile Include="..\Code\PowerOrbs.cpp" />
+    <ClCompile Include="..\Code\PowerSelectorHUD.cpp" />
+    <ClCompile Include="..\Code\PowerSequence.cpp" />
+    <ClCompile Include="..\Code\Primitive3D.cpp" />
+    <ClCompile Include="..\Code\Projectile.cpp" />
+    <ClCompile Include="..\Code\PS5Controller.cpp" />
+    <ClCompile Include="..\Code\QuadTree.cpp" />
+    <ClCompile Include="..\Code\RandomPicker.cpp" />
+    <ClCompile Include="..\Code\SaveFile.cpp" />
+    <ClCompile Include="..\Code\SaveMenuScreen.cpp" />
+    <ClCompile Include="..\Code\SceneBG.cpp" />
+    <ClCompile Include="..\Code\ScoreDisplay.cpp" />
+    <ClCompile Include="..\Code\ScreenRecorder.cpp" />
+    <ClCompile Include="..\Code\Sequence.cpp" />
+    <ClCompile Include="..\Code\SequenceW1.cpp" />
+    <ClCompile Include="..\Code\SequenceW2.cpp" />
+    <ClCompile Include="..\Code\SequenceW3.cpp" />
+    <ClCompile Include="..\Code\SequenceW4.cpp" />
+    <ClCompile Include="..\Code\SequenceW5.cpp" />
+    <ClCompile Include="..\Code\SequenceW6.cpp" />
+    <ClCompile Include="..\Code\SequenceW7.cpp" />
+    <ClCompile Include="..\Code\SequenceW8.cpp" />
+    <ClCompile Include="..\Code\Session.cpp" />
+    <ClCompile Include="..\Code\ShaderTester.cpp" />
+    <ClCompile Include="..\Code\ShardMenu.cpp" />
+    <ClCompile Include="..\Code\ShardSequence.cpp" />
+    <ClCompile Include="..\Code\Shield.cpp" />
+    <ClCompile Include="..\Code\ShipEnterSequence.cpp" />
+    <ClCompile Include="..\Code\ShipExitSequence.cpp" />
+    <ClCompile Include="..\Code\ShipPickup.cpp" />
+    <ClCompile Include="..\Code\Shockwave.cpp" />
+    <ClCompile Include="..\Code\SkinMenu.cpp" />
+    <ClCompile Include="..\Code\Slider.cpp" />
+    <ClCompile Include="..\Code\SoundManager.cpp" />
+    <ClCompile Include="..\Code\SpecialMovingGeoGroup.cpp" />
+    <ClCompile Include="..\Code\Spring.cpp" />
+    <ClCompile Include="..\Code\StorySequence.cpp" />
+    <ClCompile Include="..\Code\SummonGroup.cpp" />
+    <ClCompile Include="..\Code\SuperSequence.cpp" />
+    <ClCompile Include="..\Code\SurfaceMover.cpp" />
+    <ClCompile Include="..\Code\TerrainDecor.cpp" />
+    <ClCompile Include="..\Code\TerrainPolygon.cpp" />
+    <ClCompile Include="..\Code\TextBox.cpp" />
+    <ClCompile Include="..\Code\TextChooseRect.cpp" />
+    <ClCompile Include="..\Code\Tileset.cpp" />
+    <ClCompile Include="..\Code\TimerHUD.cpp" />
+    <ClCompile Include="..\Code\TitleScreen.cpp" />
+    <ClCompile Include="..\Code\ToolTip.cpp" />
+    <ClCompile Include="..\Code\TopClouds.cpp" />
+    <ClCompile Include="..\Code\TouchGrass.cpp" />
+    <ClCompile Include="..\Code\TransformTools.cpp" />
+    <ClCompile Include="..\Code\TriangleRandomizer.cpp" />
+    <ClCompile Include="..\Code\TutorialBox.cpp" />
+    <ClCompile Include="..\Code\TutorialSequence.cpp" />
+    <ClCompile Include="..\Code\UIButton.cpp" />
+    <ClCompile Include="..\Code\UICheckbox.cpp" />
+    <ClCompile Include="..\Code\UIControlGrid.cpp" />
+    <ClCompile Include="..\Code\UIHorizChooser.cpp" />
+    <ClCompile Include="..\Code\UIMouse.cpp" />
+    <ClCompile Include="..\Code\UIVerticalControlList.cpp" />
+    <ClCompile Include="..\Code\UIWindow.cpp" />
+    <ClCompile Include="..\Code\VectorMath.cpp" />
+    <ClCompile Include="..\Code\VictoryScreen.cpp" />
+    <ClCompile Include="..\Code\VisualEffects.cpp" />
+    <ClCompile Include="..\Code\WarpTransitionSequence.cpp" />
+    <ClCompile Include="..\Code\Wire.cpp" />
+    <ClCompile Include="..\Code\WorkshopManager.cpp" />
+    <ClCompile Include="..\Code\WorldMap.cpp" />
+    <ClCompile Include="..\Code\WorldSelector.cpp" />
+    <ClCompile Include="..\Code\Zone.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\AbsorbParticles.h" />
+    <ClInclude Include="..\Code\Action.h" />
+    <ClInclude Include="..\Code\Actor.h" />
+    <ClInclude Include="..\Code\ActorParams.h" />
+    <ClInclude Include="..\Code\ActorParamsBase.h" />
+    <ClInclude Include="..\Code\AdventureCreator.h" />
+    <ClInclude Include="..\Code\AirParticles.h" />
+    <ClInclude Include="..\Code\AirTrigger.h" />
+    <ClInclude Include="..\Code\AppClientID.h" />
+    <ClInclude Include="..\Code\Aura.h" />
+    <ClInclude Include="..\Code\Background.h" />
+    <ClInclude Include="..\Code\Ball.h" />
+    <ClInclude Include="..\Code\Barrier.h" />
+    <ClInclude Include="..\Code\BarrierReactions.h" />
+    <ClInclude Include="..\Code\BitField.h" />
+    <ClInclude Include="..\Code\BonusHandler.h" />
+    <ClInclude Include="..\Code\Boss.h" />
+    <ClInclude Include="..\Code\BossCommand.h" />
+    <ClInclude Include="..\Code\BossHealth.h" />
+    <ClInclude Include="..\Code\BossStageManager.h" />
+    <ClInclude Include="..\Code\BrushManager.h" />
+    <ClInclude Include="..\Code\Buf.h" />
+    <ClInclude Include="..\Code\Bullet.h" />
+    <ClInclude Include="..\Code\ButtonHolder.h" />
+    <ClInclude Include="..\Code\Camera.h" />
+    <ClInclude Include="..\Code\CharacterAnimator.h" />
+    <ClInclude Include="..\Code\CircleGroup.h" />
+    <ClInclude Include="..\Code\clipper.hpp" />
+    <ClInclude Include="..\Code\ColorShifter.h" />
+    <ClInclude Include="..\Code\Config.h" />
+    <ClInclude Include="..\Code\ControllerOptions.h" />
+    <ClInclude Include="..\Code\ControlProfile.h" />
+    <ClInclude Include="..\Code\ControlSettingsMenu.h" />
+    <ClInclude Include="..\Code\CustomMapClient.h" />
+    <ClInclude Include="..\Code\CustomMapDisplay.h" />
+    <ClInclude Include="..\Code\DeathSequence.h" />
+    <ClInclude Include="..\Code\DecorTypes.h" />
+    <ClInclude Include="..\Code\earcut.hpp" />
+    <ClInclude Include="..\Code\EditorActors.h" />
+    <ClInclude Include="..\Code\EditorDecorInfo.h" />
+    <ClInclude Include="..\Code\EditorGateInfo.h" />
+    <ClInclude Include="..\Code\EditorGraph.h" />
+    <ClInclude Include="..\Code\EditorPlayerTracker.h" />
+    <ClInclude Include="..\Code\EditorRail.h" />
+    <ClInclude Include="..\Code\EditorTerrain.h" />
+    <ClInclude Include="..\Code\EditSession.h" />
+    <ClInclude Include="..\Code\EffectLayer.h" />
+    <ClInclude Include="..\Code\EnemiesW1.h" />
+    <ClInclude Include="..\Code\EnemiesW2.h" />
+    <ClInclude Include="..\Code\EnemiesW3.h" />
+    <ClInclude Include="..\Code\EnemiesW4.h" />
+    <ClInclude Include="..\Code\EnemiesW5.h" />
+    <ClInclude Include="..\Code\EnemiesW6.h" />
+    <ClInclude Include="..\Code\EnemiesW7.h" />
+    <ClInclude Include="..\Code\EnemiesW8.h" />
+    <ClInclude Include="..\Code\Enemy.h" />
+    <ClInclude Include="..\Code\EnemyChain.h" />
+    <ClInclude Include="..\Code\EnemyMover.h" />
+    <ClInclude Include="..\Code\EnemyTracker.h" />
+    <ClInclude Include="..\Code\EnemyTypes.h" />
+    <ClInclude Include="..\Code\EnemyW4.h" />
+    <ClInclude Include="..\Code\Enemy_AimLauncher.h" />
+    <ClInclude Include="..\Code\Enemy_Airdasher.h" />
+    <ClInclude Include="..\Code\Enemy_AntiTimeSlowBooster.h" />
+    <ClInclude Include="..\Code\Enemy_AppearingShape.h" />
+    <ClInclude Include="..\Code\Enemy_AttractJuggler.h" />
+    <ClInclude Include="..\Code\Enemy_BabyScorpion.h" />
+    <ClInclude Include="..\Code\Enemy_Badger.h" />
+    <ClInclude Include="..\Code\Enemy_BasicEffect.h" />
+    <ClInclude Include="..\Code\Enemy_BasicTurret.h" />
+    <ClInclude Include="..\Code\Enemy_Bat.h" />
+    <ClInclude Include="..\Code\Enemy_BeamBomb.h" />
+    <ClInclude Include="..\Code\Enemy_Bird.h" />
+    <ClInclude Include="..\Code\Enemy_BirdShuriken.h" />
+    <ClInclude Include="..\Code\Enemy_Blocker.h" />
+    <ClInclude Include="..\Code\Enemy_Booster.h" />
+    <ClInclude Include="..\Code\Enemy_BounceBooster.h" />
+    <ClInclude Include="..\Code\Enemy_BounceFloater.h" />
+    <ClInclude Include="..\Code\Enemy_BounceJuggler.h" />
+    <ClInclude Include="..\Code\Enemy_Cactus.h" />
+    <ClInclude Include="..\Code\Enemy_Cheetah.h" />
+    <ClInclude Include="..\Code\Enemy_Chess.h" />
+    <ClInclude Include="..\Code\Enemy_Comboer.h" />
+    <ClInclude Include="..\Code\Enemy_ComboerTarget.h" />
+    <ClInclude Include="..\Code\Enemy_Copycat.h" />
+    <ClInclude Include="..\Code\Enemy_Coyote.h" />
+    <ClInclude Include="..\Code\Enemy_CoyoteBullet.h" />
+    <ClInclude Include="..\Code\Enemy_CoyoteHelper.h" />
+    <ClInclude Include="..\Code\Enemy_CoyoteShockwave.h" />
+    <ClInclude Include="..\Code\Enemy_Crawler.h" />
+    <ClInclude Include="..\Code\Enemy_CrawlerQueen.h" />
+    <ClInclude Include="..\Code\Enemy_CurveTurret.h" />
+    <ClInclude Include="..\Code\Enemy_DimensionExit.h" />
+    <ClInclude Include="..\Code\Enemy_DimensionEye.h" />
+    <ClInclude Include="..\Code\Enemy_ExplodingBarrel.h" />
+    <ClInclude Include="..\Code\Enemy_Falcon.h" />
+    <ClInclude Include="..\Code\Enemy_Firefly.h" />
+    <ClInclude Include="..\Code\Enemy_FreeFlightBooster.h" />
+    <ClInclude Include="..\Code\Enemy_FreeFlightTarget.h" />
+    <ClInclude Include="..\Code\Enemy_FutureChecker.h" />
+    <ClInclude Include="..\Code\Enemy_Gator.h" />
+    <ClInclude Include="..\Code\Enemy_GatorSuperOrb.h" />
+    <ClInclude Include="..\Code\Enemy_GatorWaterOrb.h" />
+    <ClInclude Include="..\Code\Enemy_Ghost.h" />
+    <ClInclude Include="..\Code\Enemy_GlideTarget.h" />
+    <ClInclude Include="..\Code\Enemy_Goal.h" />
+    <ClInclude Include="..\Code\Enemy_Gorilla.h" />
+    <ClInclude Include="..\Code\Enemy_GravityFaller.h" />
+    <ClInclude Include="..\Code\Enemy_GravityJuggler.h" />
+    <ClInclude Include="..\Code\Enemy_GravityModifier.h" />
+    <ClInclude Include="..\Code\Enemy_GreyEye.h" />
+    <ClInclude Include="..\Code\Enemy_GreySkeleton.h" />
+    <ClInclude Include="..\Code\Enemy_GrindJuggler.h" />
+    <ClInclude Include="..\Code\Enemy_GroundedGrindJuggler.h" />
+    <ClInclude Include="..\Code\Enemy_GrowingTree.h" />
+    <ClInclude Include="..\Code\Enemy_Hand.h" />
+    <ClInclude Include="..\Code\Enemy_HealthFly.h" />
+    <ClInclude Include="..\Code\Enemy_HomingBooster.h" />
+    <ClInclude Include="..\Code\Enemy_HungryComboer.h" />
+    <ClInclude Include="..\Code\Enemy_KeyFly.h" />
+    <ClInclude Include="..\Code\Enemy_LaserJays.h" />
+    <ClInclude Include="..\Code\Enemy_Lizard.h" />
+    <ClInclude Include="..\Code\Enemy_LobTurret.h" />
+    <ClInclude Include="..\Code\Enemy_LogItem.h" />
+    <ClInclude Include="..\Code\Enemy_MomentumBooster.h" />
+    <ClInclude Include="..\Code\Enemy_MovementTester.h" />
+    <ClInclude Include="..\Code\Enemy_MultiplayerBase.h" />
+    <ClInclude Include="..\Code\Enemy_MultiplayerProgressTarget.h" />
+    <ClInclude Include="..\Code\Enemy_Owl.h" />
+    <ClInclude Include="..\Code\Enemy_PalmTurret.h" />
+    <ClInclude Include="..\Code\Enemy_Parrot.h" />
+    <ClInclude Include="..\Code\Enemy_Patroller.h" />
+    <ClInclude Include="..\Code\Enemy_PhaseBooster.h" />
+    <ClInclude Include="..\Code\Enemy_PoisonFrog.h" />
+    <ClInclude Include="..\Code\Enemy_PowerItem.h" />
+    <ClInclude Include="..\Code\Enemy_PredictTurret.h" />
+    <ClInclude Include="..\Code\Enemy_Pufferfish.h" />
+    <ClInclude Include="..\Code\Enemy_PulseAttack.h" />
+    <ClInclude Include="..\Code\Enemy_QueenFloatingBomb.h" />
+    <ClInclude Include="..\Code\Enemy_RaceFightTarget.h" />
+    <ClInclude Include="..\Code\Enemy_RelativeComboer.h" />
+    <ClInclude Include="..\Code\Enemy_RemoteComboer.h" />
+    <ClInclude Include="..\Code\Enemy_RewindBooster.h" />
+    <ClInclude Include="..\Code\Enemy_Roadrunner.h" />
+    <ClInclude Include="..\Code\Enemy_ScorpionLauncher.h" />
+    <ClInclude Include="..\Code\Enemy_SequenceBird.h" />
+    <ClInclude Include="..\Code\Enemy_SequenceCoyote.h" />
+    <ClInclude Include="..\Code\Enemy_SequenceCrawler.h" />
+    <ClInclude Include="..\Code\Enemy_SequenceGator.h" />
+    <ClInclude Include="..\Code\Enemy_SequenceSkeleton.h" />
+    <ClInclude Include="..\Code\Enemy_SequenceTiger.h" />
+    <ClInclude Include="..\Code\Enemy_Shard.h" />
+    <ClInclude Include="..\Code\Enemy_Shark.h" />
+    <ClInclude Include="..\Code\Enemy_ShotgunTurret.h" />
+    <ClInclude Include="..\Code\Enemy_Shroom.h" />
+    <ClInclude Include="..\Code\Enemy_Skeleton.h" />
+    <ClInclude Include="..\Code\Enemy_SkeletonLaser.h" />
+    <ClInclude Include="..\Code\Enemy_Skunk.h" />
+    <ClInclude Include="..\Code\Enemy_Specter.h" />
+    <ClInclude Include="..\Code\Enemy_Spider.h" />
+    <ClInclude Include="..\Code\Enemy_SplitComboer.h" />
+    <ClInclude Include="..\Code\Enemy_Spring.h" />
+    <ClInclude Include="..\Code\Enemy_StagBeetle.h" />
+    <ClInclude Include="..\Code\Enemy_Swarm.h" />
+    <ClInclude Include="..\Code\Enemy_SwingLauncher.h" />
+    <ClInclude Include="..\Code\Enemy_SwordProjectile.h" />
+    <ClInclude Include="..\Code\Enemy_SwordProjectileBooster.h" />
+    <ClInclude Include="..\Code\Enemy_Teleporter.h" />
+    <ClInclude Include="..\Code\Enemy_TetheredRusher.h" />
+    <ClInclude Include="..\Code\Enemy_Thorn.h" />
+    <ClInclude Include="..\Code\Enemy_Tiger.h" />
+    <ClInclude Include="..\Code\Enemy_TigerFlameTarget.h" />
+    <ClInclude Include="..\Code\Enemy_TigerGrindBullet.h" />
+    <ClInclude Include="..\Code\Enemy_TigerSpinTurret.h" />
+    <ClInclude Include="..\Code\Enemy_TigerTarget.h" />
+    <ClInclude Include="..\Code\Enemy_TimeBooster.h" />
+    <ClInclude Include="..\Code\Enemy_Trailer.h" />
+    <ClInclude Include="..\Code\Enemy_Turtle.h" />
+    <ClInclude Include="..\Code\Enemy_TutorialObject.h" />
+    <ClInclude Include="..\Code\Enemy_Widow.h" />
+    <ClInclude Include="..\Code\Enemy_WireJuggler.h" />
+    <ClInclude Include="..\Code\EnvEffects.h" />
+    <ClInclude Include="..\Code\EnvPlant.h" />
+    <ClInclude Include="..\Code\Eye.h" />
+    <ClInclude Include="..\Code\Fader.h" />
+    <ClInclude Include="..\Code\Feedback.h" />
+    <ClInclude Include="..\Code\FileChooser.h" />
+    <ClInclude Include="..\Code\flow.h" />
+    <ClInclude Include="..\Code\FlowerPod.h" />
+    <ClInclude Include="..\Code\FPoint.h" />
+    <ClInclude Include="..\Code\GameMode.h" />
+    <ClInclude Include="..\Code\GameSession.h" />
+    <ClInclude Include="..\Code\Gate.h" />
+    <ClInclude Include="..\Code\GateMarker.h" />
+    <ClInclude Include="..\Code\GCC\GCController.h" />
+    <ClInclude Include="..\Code\GCC\USBDriver.h" />
+    <ClInclude Include="..\Code\GCC\VJoyGCController.h" />
+    <ClInclude Include="..\Code\GGPO.h" />
+    <ClInclude Include="..\Code\globals.h" />
+    <ClInclude Include="..\Code\GoalExplosion.h" />
+    <ClInclude Include="..\Code\GoalFlow.h" />
+    <ClInclude Include="..\Code\Grass.h" />
+    <ClInclude Include="..\Code\GreyWarpSequence.h" />
+    <ClInclude Include="..\Code\GroundedWarper.h" />
+    <ClInclude Include="..\Code\GroundTrigger.h" />
+    <ClInclude Include="..\Code\GUI.h" />
+    <ClInclude Include="..\Code\HitboxManager.h" />
+    <ClInclude Include="..\Code\HUD.h" />
+    <ClInclude Include="..\Code\ImageText.h" />
+    <ClInclude Include="..\Code\Input.h" />
+    <ClInclude Include="..\Code\InputVisualizer.h" />
+    <ClInclude Include="..\Code\IntroMovie.h" />
+    <ClInclude Include="..\Code\ISelectable.h" />
+    <ClInclude Include="..\Code\ItemSelector.h" />
+    <ClInclude Include="..\Code\Julia.h" />
+    <ClInclude Include="..\Code\KeyMarker.h" />
+    <ClInclude Include="..\Code\KinBoostScreen.h" />
+    <ClInclude Include="..\Code\KinMenu.h" />
+    <ClInclude Include="..\Code\LevelSelector.h" />
+    <ClInclude Include="..\Code\LevelServer.h" />
+    <ClInclude Include="..\Code\Light.h" />
+    <ClInclude Include="..\Code\LoadingBackpack.h" />
+    <ClInclude Include="..\Code\LogInfo.h" />
+    <ClInclude Include="..\Code\LogMenu.h" />
+    <ClInclude Include="..\Code\MacInput.h" />
+    <ClInclude Include="..\Code\MainMenu.h" />
+    <ClInclude Include="..\Code\MapHeader.h" />
+    <ClInclude Include="..\Code\Minimap.h" />
+    <ClInclude Include="..\Code\MomentumBar.h" />
+    <ClInclude Include="..\Code\MotionGhostEffect.h" />
+    <ClInclude Include="..\Code\Movement.h" />
+    <ClInclude Include="..\Code\Mover.h" />
+    <ClInclude Include="..\Code\MovingGeo.h" />
+    <ClInclude Include="..\Code\MusicPlayer.h" />
+    <ClInclude Include="..\Code\MusicSelector.h" />
+    <ClInclude Include="..\Code\Nexus.h" />
+    <ClInclude Include="..\Code\NodeGroup.h" />
+    <ClInclude Include="..\Code\ObjectPool.h" />
+    <ClInclude Include="..\Code\ObjectProperties.h" />
+    <ClInclude Include="..\Code\PaletteShader.h" />
+    <ClInclude Include="..\Code\ParticleEffects.h" />
+    <ClInclude Include="..\Code\ParticleHandler.h" />
+    <ClInclude Include="..\Code\PauseMenu.h" />
+    <ClInclude Include="..\Code\Physics.h" />
+    <ClInclude Include="..\Code\PlayerChar.h" />
+    <ClInclude Include="..\Code\PlayerRecord.h" />
+    <ClInclude Include="..\Code\PlayerSkinShader.h" />
+    <ClInclude Include="..\Code\PoiInfo.h" />
+    <ClInclude Include="..\Code\PositionInfo.h" />
+    <ClInclude Include="..\Code\PowerOrbs.h" />
+    <ClInclude Include="..\Code\PowerSelectorHUD.h" />
+    <ClInclude Include="..\Code\PowerSequence.h" />
+    <ClInclude Include="..\Code\Primitive3D.h" />
+    <ClInclude Include="..\Code\Projectile.h" />
+    <ClInclude Include="..\Code\PS5Controller.h" />
+    <ClInclude Include="..\Code\QuadTree.h" />
+    <ClInclude Include="..\Code\RandomPicker.h" />
+    <ClInclude Include="..\Code\SaveFile.h" />
+    <ClInclude Include="..\Code\SaveMenuScreen.h" />
+    <ClInclude Include="..\Code\ScoreDisplay.h" />
+    <ClInclude Include="..\Code\ScreenRecorder.h" />
+    <ClInclude Include="..\Code\Sequence.h" />
+    <ClInclude Include="..\Code\SequenceW1.h" />
+    <ClInclude Include="..\Code\SequenceW2.h" />
+    <ClInclude Include="..\Code\SequenceW3.h" />
+    <ClInclude Include="..\Code\SequenceW4.h" />
+    <ClInclude Include="..\Code\SequenceW5.h" />
+    <ClInclude Include="..\Code\SequenceW6.h" />
+    <ClInclude Include="..\Code\SequenceW7.h" />
+    <ClInclude Include="..\Code\SequenceW8.h" />
+    <ClInclude Include="..\Code\Session.h" />
+    <ClInclude Include="..\Code\ShaderTester.h" />
+    <ClInclude Include="..\Code\ShardInfo.h" />
+    <ClInclude Include="..\Code\ShardMenu.h" />
+    <ClInclude Include="..\Code\ShardSequence.h" />
+    <ClInclude Include="..\Code\ShardTypes.h" />
+    <ClInclude Include="..\Code\Shield.h" />
+    <ClInclude Include="..\Code\ShipPickup.h" />
+    <ClInclude Include="..\Code\Shockwave.h" />
+    <ClInclude Include="..\Code\SkinMenu.h" />
+    <ClInclude Include="..\Code\SoundManager.h" />
+    <ClInclude Include="..\Code\SoundTypes.h" />
+    <ClInclude Include="..\Code\SpecialTerrainTypes.h" />
+    <ClInclude Include="..\Code\StorySequence.h" />
+    <ClInclude Include="..\Code\SummonGroup.h" />
+    <ClInclude Include="..\Code\SurfaceMover.h" />
+    <ClInclude Include="..\Code\TerrainDecor.h" />
+    <ClInclude Include="..\Code\Tileset.h" />
+    <ClInclude Include="..\Code\TimerHUD.h" />
+    <ClInclude Include="..\Code\TitleScreen.h" />
+    <ClInclude Include="..\Code\TopClouds.h" />
+    <ClInclude Include="..\Code\TouchGrass.h" />
+    <ClInclude Include="..\Code\TransformTools.h" />
+    <ClInclude Include="..\Code\TriangleRandomizer.h" />
+    <ClInclude Include="..\Code\TutorialBox.h" />
+    <ClInclude Include="..\Code\TutorialSequence.h" />
+    <ClInclude Include="..\Code\UIWindow.h" />
+    <ClInclude Include="..\Code\VectorMath.h" />
+    <ClInclude Include="..\Code\VictoryScreen.h" />
+    <ClInclude Include="..\Code\VisualEffects.h" />
+    <ClInclude Include="..\Code\WarpTransitionSequence.h" />
+    <ClInclude Include="..\Code\Wire.h" />
+    <ClInclude Include="..\Code\WorkshopManager.h" />
+    <ClInclude Include="..\Code\WorldMap.h" />
+    <ClInclude Include="..\Code\Zone.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{46EE4A0D-F086-4A72-A4F6-C0BACCED9B74}</ProjectGuid>
+    <RootNamespace>BreakneckSteam</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\ficti\Documents\Libs\SFML-2.4.2\include;C:\Users\ficti\Documents\Libs\boost_1_59_0;C:\Users\ficti\Documents\Libs\sfeMovie\Include;C:\Program Files (x86)\Windows Kits\10;C:\Users\ficti\Documents\Libs\libusb-1.0.22\include\libusb-1.0;C:\Users\ficti\Documents\Libs\vJoy218SDK-291116\SDK\inc;D:\Libraries\json-develop\include;C:\Users\ficti\Documents\GitHub\Breakneck-1\Code;C:\Users\ficti\Documents\Libs\ggpo-master\src\include;D:\Libraries\DualSenseWindows_V0.1;C:\Users\ficti\Documents\Libs\steamworks_sdk_153a\sdk\public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;USE_IMPORT_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\ficti\Documents\Libs\SFML-2.4.2\lib;C:\Users\ficti\Documents\Libs\boost_1_59_0\stage\win32\lib;C:\Users\ficti\Documents\Libs\sfeMovie\lib;C:\Users\ficti\Documents\Libs\libusb-1.0.22\MS32\dll;C:\Users\ficti\Documents\Libs\vJoy218SDK-291116\SDK\lib;C:\Users\ficti\Documents\Libs\ggpo-master\lib\x86\Debug;D:\Libraries\DualSenseWindows_V0.1;C:\Users\ficti\Documents\Libs\steamworks_sdk_153a\sdk\redistributable_bin;C:\Users\ficti\Documents\Libs\steamworks_sdk_153a\sdk\public\steam\lib\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-system-d.lib;sfml-network-d.lib;openal32.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;sfeMovie-d.lib;libusb-1.0.lib;vJoyInterface.lib;winhttp.lib;GGPO.lib;ds5w_x86.lib;steam_api.lib;sdkencryptedappticket.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\ficti\Documents\Libs\SFML-2.4.2\include;C:\Users\ficti\Documents\Libs\boost_1_59_0;C:\Users\ficti\Documents\Libs\sfeMovie\Include;C:\Program Files (x86)\Windows Kits\10;C:\Users\ficti\Documents\Libs\libusb-1.0.22\include\libusb-1.0;C:\Users\ficti\Documents\Libs\vJoy218SDK-291116\SDK\inc;D:\Libraries\json-develop\include;C:\Users\ficti\Documents\GitHub\Breakneck-1\Code;C:\Users\ficti\Documents\Libs\ggpo-master\src\include;D:\Libraries\DualSenseWindows_V0.1;C:\Users\ficti\Documents\Libs\steamworks_sdk_153a\sdk\public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\ficti\Documents\Libs\SFML-2.4.2\lib;C:\Users\ficti\Documents\Libs\boost_1_59_0\stage\win32\lib;C:\Users\ficti\Documents\Libs\sfeMovie\lib;C:\Users\ficti\Documents\Libs\libusb-1.0.22\MS32\dll;C:\Users\ficti\Documents\Libs\vJoy218SDK-291116\SDK\lib;C:\Users\ficti\Documents\Libs\ggpo-master\lib\x86\Debug;D:\Libraries\DualSenseWindows_V0.1;C:\Users\ficti\Documents\Libs\steamworks_sdk_153a\sdk\redistributable_bin;C:\Users\ficti\Documents\Libs\steamworks_sdk_153a\sdk\public\steam\lib\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-system-d.lib;sfml-network-d.lib;openal32.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;sfeMovie-d.lib;libusb-1.0.lib;vJoyInterface.lib;winhttp.lib;GGPO.lib;ds5w_x86.lib;steam_api.lib;sdkencryptedappticket.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,7 @@
+﻿  main.cpp
+  WorkshopManager.cpp
+c:\users\ficti\documents\visual studio 2015\projects\breaknecksteam\code\workshopmanager.h(31): error C2275: 'WorkshopManager': illegal use of this type as an expression
+c:\users\ficti\documents\visual studio 2015\projects\breaknecksteam\code\workshopmanager.h(31): error C2327: 'WorkshopManager::m_steamcallback_OnItemUpdatesSubmitted': is not a type name, static, or enumerator
+c:\users\ficti\documents\visual studio 2015\projects\breaknecksteam\code\workshopmanager.h(31): error C2065: 'm_steamcallback_OnItemUpdatesSubmitted': undeclared identifier
+c:\users\ficti\documents\visual studio 2015\projects\breaknecksteam\code\workshopmanager.h(31): error C3861: 'offsetof': identifier not found
+  Generating Code...
